@@ -11,5 +11,8 @@ const userSchema = new mongooseSchema({
         password: {
                 type: String,
                 required: true,
+                bcrypt: true,
         },
 });
+
+userSchema.plugin(require('mongoose-bcrypt'));

@@ -23,6 +23,7 @@
     "prettier": "^1.19.1"
   },
   "dependencies": {
+    "express": "^4.17.1",
     "mongoose-bcrypt": "^1.6.0"
   }
 }
